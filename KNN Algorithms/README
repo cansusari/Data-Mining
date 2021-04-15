@@ -1,0 +1,9 @@
+Moderate KNN // Fuzzy KNN (5-Fold Cross Validation) // r Radius Neighbour KNN (MATLAB)
+
+For all KNN algorithms the dataset is partitioned into training(80%) and validation sets(20%) after shuffling and normalizing.
+
+Moderate KNN: The built-in "fitcknn" function is used and error rates are plotted for k = 1 to 100 for both training and validation sets, and the minimum error value and the k value to achieve that error is stored.
+
+Fuzzy KNN: Fuzzy KNN algorithm is built and applied using euclidean distance with 5-fold cross validation and error rates are plotted for k = 1 to 50, storing the best k values.
+
+r Radius Neighbour KNN: r Radius Neighbour KNN algorithm is implemented, plotting the error rates for the r values for both training and validation sets and the best r value with the minimum error rate is stored.

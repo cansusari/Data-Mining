@@ -1,0 +1,5 @@
+Naive Bayes Classification Algorithm (MATLAB)
+
+The dataset "UniversalBank" is partitioned into training set(80%) and validation set(20%). The dataset is a mixed data that includes both numeric and categorical data, so the numeric variables are converted to categorical by binning, and different bins are used to get minimum error rate from the validation set.
+
+After the preparation of the dataset, the naive bayes classification algorithm is applied and the error rate found is compared with the one in Naive Rule.

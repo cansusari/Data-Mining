@@ -1,0 +1,11 @@
+Classification Tree Algorithm (MATLAB)
+
+It is assumed that all the attributes are independent and the dataset is partitioned into training(80%) and validation(20%) sets.
+
+a) In order to construct a classification tree, the transformations for the categorical variables into numerical is performed and dataset is prepared.
+
+b) Using the built-in "fitctree" function the classification tree is created using Gini Index. The labels are predicted for the validation set and misclassification error is found. Minimum error tree is found and errors are calculated at each level of pruning.
+
+c) Part (b) is repeated with the Entropy as the splitting criterion.
+
+d) A misclassification cost is calculated using the classification tree using Gini Index under the assumption that the misclassification cost when the true label is "delayed" is 50$ and "ontime" is 5$.

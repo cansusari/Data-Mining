@@ -1,0 +1,7 @@
+PCA (MATLAB)
+
+Part1: Pairwise scatterplots of the original dataset of the attributes from the 3rd to 10th are plotted
+Part2: Principal component coefficients and the transformed dataset are computed
+Part3: The variance of each variable in the transformed dataset is calculated & the informative attributes which covers the 90% of the total variance are selected
+Part4: The transformed data onto the new coordinate system by using the two most informative attributes principal components is plotted
+Part5: Discussion about the characteristics of data, cluster tendency
